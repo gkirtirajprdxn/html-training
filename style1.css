@@ -63,3 +63,24 @@ nav ul li a:hover{
 
 /*-------------------------banner--------------------------------*/
 
+figure img{
+	position: relative;
+	display: inline-block;
+}
+.banner .wrapper{
+	position: absolute;
+	z-index: 10;
+    display: flex;
+    justify-content: center;       
+    text-align: center;
+	margin: 0 auto;
+	padding: 40px;
+	width: 60%;
+    left: 0;
+    right: 0; 
+    bottom: 10%;
+    background-color: orange;
+    color: white;
+}
+
+/*---------------------------------------------------------------*/
