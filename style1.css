@@ -1,0 +1,346 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Helvetica', Arial, sans-serif;
+	overflow-x: hidden !important;
+}
+
+/*-----------------------------header---------------------------------------*/
+
+header{
+	background-color: #4c4c4c;
+}
+.wrapper{
+	padding: 0 50px;
+}
+.nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header nav ul, .icons ul{
+	display: flex;
+}
+.logo{
+	background-color: orange;
+	padding: 20px;
+}
+.logo a{
+	color: white;
+	text-decoration: none;
+}
+.logo p{
+	font-size: 10px;
+}
+nav ul li{
+	list-style-type: none;
+	padding: 30px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-weight: 600;
+	font-size: 12px;
+}
+nav ul li a:hover{
+	color: orange;
+}
+.icons ul li{
+	list-style-type: none;
+	padding: 10px;
+	font-size: 12px;
+}
+.icons ul li a{
+	text-decoration: none;
+	color: grey;
+}
+.icons ul li a:hover{
+	color: white;
+}
+
+/*-------------------------banner--------------------------------*/
+
+.banner img{
+	position: relative;
+	display: inline-block;
+}
+.banner .wrapper{
+	position: absolute;
+	z-index: 10;
+    display: flex;
+    justify-content: center;       
+    text-align: center;
+	margin: 0 auto;
+	padding: 40px;
+	width: 60%;
+    left: 0;
+    right: 0; 
+    bottom: 10%;
+    background-color: orange;
+    color: white;
+}
+.banner a{
+	text-decoration: none;
+	color: white;
+}
+
+/*--------------------------features-------------------------------------*/
+
+.features h3{
+	color: #4c4c4c;
+	font-size: 32px;
+	text-align: center;
+	padding: 80px 50px 50px 50px;
+}
+.features ul{
+	display: flex;
+}
+.features ul li{
+	list-style-type: none;
+	text-align: center;
+	color: #4c4c4c; 
+}
+.feature .icon img{
+	border-radius: 50%;
+}
+.feature h4{
+	font-weight:700;
+	padding: 20px;
+}
+.feature p{
+	padding: 20px;
+}
+.feature a{
+	text-decoration: none;
+	color: #4c4c4c;
+	font-weight: 600;
+	padding: 10px;
+	margin: 20px;
+	border: 1px solid #4c4c4c;
+}
+.feature a:hover{
+	color: orange;
+	border-color: orange;
+}
+
+/*-----------------------------cards----------------------------------*/
+
+.cards{
+	background-color: #eee;
+	margin-top: 80px;
+}
+.cards h3{
+	color: #4c4c4c;
+	font-size: 32px;
+	text-align: center;
+	padding: 80px 50px 0px 50px;
+}
+.cards p{
+	color: #4c4c4c;
+	font-size: 20px;
+	text-align: center;
+	padding:10px 30px;
+}
+.cards ul{
+	display: flex;
+}
+.cards ul li{
+	list-style-type: none;
+	text-align: center;
+	background-color: white;
+	margin: 10px;
+	margin-bottom: 80px;
+
+}
+.card figure{
+	padding-top: 10px;
+}
+.card h4{
+	color: orange;
+	padding: 40px 20px 0px 20px;
+	font-size: 24px;
+}
+.card p{
+	font-size: 16px;
+	color: #4c4c4c;
+}
+.card a{
+	text-decoration: none;
+	border: 2px solid black;
+	border-radius: 50%;
+}
+
+
+/*----------------------------learn---------------------------------*/
+
+.learn ul{
+	/*margin-top: 80px;*/
+	margin-left: 40px;
+}
+.learn .wrapper{
+	display: flex;
+	padding: 0;
+}
+.learn1{
+	width: 50%;
+	background-color: orange;
+	color: white;
+	padding: 50px;
+}
+.learn2{
+	width: 50%;
+	background-color: #4c4c4c;
+	color: white;
+	padding: 50px;
+}
+.learn ul li{
+	font-size: 16px;
+	line-height: 25px;
+	padding: 0 20px;
+}
+.learn h3{
+	font-size: 24px;
+	padding: 20px;
+}
+.learn p{
+	font-size: 16px;
+	padding: 20px;
+}
+.learn a{
+	text-decoration: none;
+	color: white;
+	font-weight: 600;
+	padding: 10px;
+	margin-left: 20px;
+	border: 1px solid white;
+}
+.learn1 a:hover{
+	color: #4c4c4c;
+	border-color: #4c4c4c;
+}
+.learn2 a:hover{
+	color: orange;
+	border-color: orange;
+}
+
+/*----------------------company----------------------------*/
+
+.company .wrapper{
+	display: flex;
+}
+.company ul{
+	display: flex;
+	justify-content: space-between;
+	padding: 30px;
+	margin: auto;
+}
+.company ul li{
+	list-style-type: none;
+	padding: 10px;
+}
+.company a{
+	align-self: center;
+	text-decoration: none;
+	color: black;
+}
+
+/*--------------------------contacts----------------------------*/
+
+.contacts img{
+	position: relative;
+	display: inline-block;
+}
+.contacts .wrapper{
+	position: absolute;
+	z-index: 10;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: block;
+}
+form{
+	display: flex;
+}
+.c1{
+	width: 30%;
+}
+.c2{
+	width: 70%;
+}
+.c2 input{
+	width: 70%;
+}
+.c1 input{
+	display: block;
+	/*width: 30%;*/
+	width: 400px;
+}
+.contacts h3{
+	color: #4c4c4c;
+	font-size: 32px;
+	text-align: center;
+	padding: 80px 50px 0px 50px;
+}
+
+/*------------------------------links----------------------------------*/
+
+.links{
+	background-color: #4c4c4c;
+	padding: 100px 0;
+}
+.links ul{
+	display: flex;
+	justify-content: space-around;
+}
+.links ul li{
+	list-style-type: none;
+}
+.links i{
+	color: white;
+	background: orange;
+	padding: 15px;
+	border-radius: 50%;
+	border: 10px solid #ddd;
+}
+.links i:hover{
+	color: orange;
+	background: #ddd;
+	border-color: orange;
+}
+.links a{
+	color: #fff;
+	text-decoration: none;
+	align-self: center;
+	font-weight: 600;
+}
+.links a:hover{
+	color: orange;
+}
+
+/*-------------------------footer-----------------------------*/
+
+
+footer{
+	background-color: #4c4c4c;
+}
+footer .wrapper{
+	display: flex;
+	justify-content: space-between;
+}
+footer h3,footer p{
+	display: inline;
+	color: white;
+}
+footer h3{
+	font-size: 24px;
+}
+footer ul li a i{
+	color: orange;
+}
+footer ul li a i:hover{
+	color: white;
+}
