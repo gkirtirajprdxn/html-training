@@ -167,3 +167,50 @@ nav li{
 	width: 100%;
 	height: auto;
 }
+
+/* products */
+
+.products{
+	padding: 80px 0;
+}
+.products h3, h4{
+	padding: 10px 0;
+	color: #4c4c4c;
+	font-size: 30px;
+}
+.products p{
+	padding: 10px 0;
+	color: #4c4c4c;
+}
+.products a{
+	padding: 10px 0;
+	display: inline-block;
+	color: #7181a1;
+}
+.products ul{
+	padding-top: 10px;
+	border-top: 1px solid #ccc;
+}
+article{
+	padding: 25px 0;
+	border-bottom: 1px solid #ccc;
+}
+.icon, .left, .left .content, .product-img{
+	display: inline-block;
+}
+.left, .icon{
+	vertical-align: top;
+}
+.left{
+	width: 68.25%;
+}
+.left .content{
+	padding: 0 10px;
+}
+.product-img{
+	width: calc(31.75%-5px);
+}
+.product-img img{
+	width: 100%;
+	height: auto;
+}
