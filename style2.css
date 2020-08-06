@@ -300,4 +300,29 @@ article{
 	margin-left: 600px;
 }
 
+/* icons */
+
+.icons{
+	background-color: #59545A;
+	text-align: center;
+}
+.icons h4{
+	padding: 15px;
+	display: inline-block;
+	color: #fff;
+	font-size: 16px;
+}
+.icons a{
+
+	color: #fff;
+}
+.icons ul{
+	padding: 20px;
+	display: inline-block;
+}
+.icons ul li{
+	padding: 5px;
+	display: inline-block;
+}
+
 
