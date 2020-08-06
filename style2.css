@@ -1,0 +1,31 @@
+*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Helvetica', Arial, sans-serif;
+	overflow-x: hidden !important;
+}
+.cf:before,
+.cf:after {
+  display: table;
+  content: " ";
+}
+
+.cf:after { clear: both; }
+
+.cf { *zoom: 1; }
+
+.wrapper{
+	width:74.8%;
+	/*padding: 0 170px;*/
+	margin: 0 auto;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style-type: none;
+}
+
