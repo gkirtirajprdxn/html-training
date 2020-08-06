@@ -1,125 +1,155 @@
 *{
-	margin: 0px;
-	padding: 0px;
 	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
 }
 body{
 	font-family: 'Helvetica', Arial, sans-serif;
 	overflow-x: hidden !important;
 }
 
+.wrapper{
+	/*width:92.6%;*/
+	padding: 0 50px;
+	margin: 0 auto;
+}
+
+a{
+	text-decoration: none;
+}
+
 /*-----------------------------header---------------------------------------*/
 
 header{
+	max-height: 18vh;
 	background-color: #4c4c4c;
 }
-.wrapper{
-	padding: 0 50px;
-}
-.nav{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-header nav ul, .icons ul{
-	display: flex;
+header li{
+	display: inline-block;
 }
 .logo{
+	height: 18vh;
+	padding: 25px;
+	display: inline-block;
 	background-color: orange;
-	padding: 20px;
 }
-.logo a{
+.logo h1{
 	color: white;
-	text-decoration: none;
+	font-size: 40px;
 }
-.logo p{
-	font-size: 10px;
+.logo span{
+	color: white;
+	font-size: 12px;
 }
-nav ul li{
+nav{
+	width: 60%;
+	display: inline-block;
+}
+nav li{
+	padding: 12px;
 	list-style-type: none;
-	padding: 30px;
 }
-nav ul li a{
-	text-decoration: none;
+nav li:first-child{
+	margin-left: 120px;
+}
+nav a{
+	padding: 5px;
 	color: white;
+	font-size: 13px;
 	font-weight: 600;
-	font-size: 12px;
 }
-nav ul li a:hover{
-	color: orange;
+header .icons{
+	/*float: right;*/
+	margin-right: 0;
+	margin-left: 37px;
+	display: inline-block;
 }
-.icons ul li{
-	list-style-type: none;
-	padding: 10px;
-	font-size: 12px;
-}
-.icons ul li a{
-	text-decoration: none;
+header .icons a{
+	padding: 5px;
 	color: grey;
+	font-size: 12px;
 }
-.icons ul li a:hover{
-	color: white;
+header .icons li{
+	padding: 3px;
 }
+
 
 /*-------------------------banner--------------------------------*/
 
-.banner img{
+.banner{
 	position: relative;
-	display: inline-block;
+}
+.banner img{
+	width: 100%;
+	height: auto;
+	/*display: inline-block;*/
 }
 .banner .wrapper{
-	position: absolute;
-	z-index: 10;
-    display: flex;
-    justify-content: center;       
-    text-align: center;
+	width: 750px;
 	margin: 0 auto;
-	padding: 40px;
-	width: 60%;
-    left: 0;
+	position: absolute;
+	z-index: 2;      
     right: 0; 
-    bottom: 10%;
+    bottom: 5px;
+    left: 0;
     background-color: orange;
     color: white;
+    text-align: center;
 }
 .banner a{
+	display: inline-block;
+	position: absolute;
+	top: 30%;
+	color: white;	
+	font-size: 35px;
 	text-decoration: none;
-	color: white;
+}
+.banner h2{
+	width: 580px;
+	padding: 20px 50px;
+	display: inline-block;
+	font-size: 35px;
 }
 
 /*--------------------------features-------------------------------------*/
 
+.features{
+	padding: 40px 0px 70px 0px;
+}
 .features h3{
+	padding: 50px;
 	color: #4c4c4c;
-	font-size: 32px;
+	font-size: 40px;
 	text-align: center;
-	padding: 80px 50px 50px 50px;
 }
 .features ul{
 	display: flex;
 }
 .features ul li{
+	color: #4c4c4c; 
 	list-style-type: none;
 	text-align: center;
-	color: #4c4c4c; 
 }
 .feature .icon img{
 	border-radius: 50%;
 }
 .feature h4{
-	font-weight:700;
 	padding: 20px;
+	font-size: 20px;
+	font-weight:750;
 }
 .feature p{
 	padding: 20px;
+	color: #ccc;
+	font-weight: 500;
 }
 .feature a{
-	text-decoration: none;
+	padding: 10px;
+	border: 1px solid #4c4c4c;
+	margin: 10px;
+	display: inline-block;
 	color: #4c4c4c;
 	font-weight: 600;
-	padding: 10px;
-	margin: 20px;
-	border: 1px solid #4c4c4c;
 }
 .feature a:hover{
 	color: orange;
@@ -129,48 +159,48 @@ nav ul li a:hover{
 /*-----------------------------cards----------------------------------*/
 
 .cards{
+	padding: 88px 0px 58px 0px;
 	background-color: #eee;
-	margin-top: 80px;
 }
 .cards h3{
 	color: #4c4c4c;
-	font-size: 32px;
+	font-size: 40px;
 	text-align: center;
-	padding: 80px 50px 0px 50px;
 }
 .cards p{
-	color: #4c4c4c;
-	font-size: 20px;
+	padding:20px 40px;
+	color: #ccc;
+	font-size: 14px;
+	font-weight: 400;
 	text-align: center;
-	padding:10px 30px;
 }
 .cards ul{
 	display: flex;
 }
 .cards ul li{
+	margin: 10px;
+	background-color: white;
 	list-style-type: none;
 	text-align: center;
-	background-color: white;
-	margin: 10px;
-	margin-bottom: 80px;
-
 }
 .card figure{
-	padding-top: 10px;
+	padding: 10px;
+}
+.cards img{
+	width: 100%;
+	height: auto;
 }
 .card h4{
+	padding: 35px 20px 0px 20px;
 	color: orange;
-	padding: 40px 20px 0px 20px;
-	font-size: 24px;
-}
-.card p{
-	font-size: 16px;
-	color: #4c4c4c;
+	font-size: 28px;
 }
 .card a{
-	text-decoration: none;
+	padding: 3px 8px;
 	border: 2px solid black;
 	border-radius: 50%;
+	margin-bottom: 40px;
+	display: inline-block;
 }
 
 
@@ -178,52 +208,60 @@ nav ul li a:hover{
 
 .learn ul{
 	/*margin-top: 80px;*/
-	margin-left: 40px;
+	margin-left: 20px;
 }
 .learn .wrapper{
-	display: flex;
 	padding: 0;
+	display: flex;
 }
 .learn1{
 	width: 50%;
+	padding: 50px;
+	padding-right: 100px;
+	display: inline-block;
 	background-color: orange;
 	color: white;
-	padding: 50px;
+}
+.learn1 ul{
+	padding: 38px 0px 40px 0px;
+}
+.learn2 ul{
+	padding: 38px 0px 10px 0px;
 }
 .learn2{
 	width: 50%;
+	padding: 50px;
+	padding-left: 100px;
+	display: inline-block;
 	background-color: #4c4c4c;
 	color: white;
-	padding: 50px;
 }
 .learn ul li{
-	font-size: 16px;
-	line-height: 25px;
-	padding: 0 20px;
+	line-height: 30px;
 }
 .learn h3{
-	font-size: 24px;
-	padding: 20px;
+	font-size: 35px;
 }
 .learn p{
+	padding: 0px 0px 30px 0px;
 	font-size: 16px;
-	padding: 20px;
 }
 .learn a{
-	text-decoration: none;
+	padding: 10px;
+	border: 1px solid white;
+	display: inline-block;
 	color: white;
 	font-weight: 600;
-	padding: 10px;
-	margin-left: 20px;
-	border: 1px solid white;
+	text-decoration: none;
+
 }
 .learn1 a:hover{
-	color: #4c4c4c;
 	border-color: #4c4c4c;
+	color: #4c4c4c;
 }
 .learn2 a:hover{
-	color: orange;
 	border-color: orange;
+	color: orange;
 }
 
 /*----------------------company----------------------------*/
@@ -232,65 +270,71 @@ nav ul li a:hover{
 	display: flex;
 }
 .company ul{
-	display: flex;
-	justify-content: space-between;
 	padding: 30px;
 	margin: auto;
+	display: flex;
+	justify-content: space-between;
 }
 .company ul li{
-	list-style-type: none;
 	padding: 10px;
+	list-style-type: none;
 }
 .company a{
 	align-self: center;
-	text-decoration: none;
 	color: black;
+	text-decoration: none;
 }
 
 /*--------------------------contacts----------------------------*/
 
-.contacts img{
-	position: relative;
-	display: inline-block;
-}
-.contacts .wrapper{
-	position: absolute;
-	z-index: 10;
-    text-align: center;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    display: block;
-}
-form{
-	display: flex;
+.contacts{
+	padding: 35px 0px 50px 0px;
+	background-image: url("images/bg-1366x415.png");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .c1{
-	width: 30%;
+	display: inline-block;
+	float: left;
 }
 .c2{
-	width: 70%;
+	margin-left: 30px;
+	display: inline-block;
 }
-.c2 input{
-	width: 70%;
+.c2 input:first-child{
+	width: 820px;
+	height: 128px;
+}
+.c2 input:last-child{
+	padding: 16px 32px;
+	border: none;
+	margin-top: 12px;
+	margin-left: 705px;
+	display: block;
+	background-color: orange;
+	color: white;
+	font-size: 18px;
+	font-weight: 600; 
 }
 .c1 input{
+	width: 395px;
+	height: 33px;
+	margin-bottom: 15px;
 	display: block;
-	/*width: 30%;*/
-	width: 400px;
 }
 .contacts h3{
-	color: #4c4c4c;
+	padding: 40px;
+	color: white;
 	font-size: 32px;
 	text-align: center;
-	padding: 80px 50px 0px 50px;
+	text-shadow: 2px 2px #4c4c4c;
 }
 
 /*------------------------------links----------------------------------*/
 
 .links{
-	background-color: #4c4c4c;
 	padding: 100px 0;
+	background-color: #4c4c4c;
 }
 .links ul{
 	display: flex;
@@ -300,22 +344,22 @@ form{
 	list-style-type: none;
 }
 .links i{
-	color: white;
-	background: orange;
 	padding: 15px;
-	border-radius: 50%;
 	border: 10px solid #ddd;
+	border-radius: 50%;
+	background: orange;
+	color: white;
 }
 .links i:hover{
-	color: orange;
-	background: #ddd;
 	border-color: orange;
+	background: #ddd;
+	color: orange;
 }
 .links a{
-	color: #fff;
-	text-decoration: none;
 	align-self: center;
+	color: #fff;
 	font-weight: 600;
+	text-decoration: none;
 }
 .links a:hover{
 	color: orange;
@@ -325,22 +369,38 @@ form{
 
 
 footer{
+	padding: 80px 0px 400px 0px;
 	background-color: #4c4c4c;
-}
+}/*
 footer .wrapper{
 	display: flex;
 	justify-content: space-between;
+}*/
+.foot,.map{
+	display: inline-block;
+}
+.map{
+	float: right;
 }
 footer h3,footer p{
 	display: inline;
 	color: white;
 }
 footer h3{
-	font-size: 24px;
+	font-size: 30px;
 }
-footer ul li a i{
+footer p{
+	font-size: 14px;
+}
+footer a i{
 	color: orange;
+	font-size: 30px;
 }
-footer ul li a i:hover{
+footer a i:hover{
 	color: white;
+}
+footer .icons li{
+	padding: 10px;
+	display: inline-block;
+	list-style-type: none;
 }
