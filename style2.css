@@ -132,3 +132,38 @@ nav li{
 	padding: 12px 0;
 	font-size: 20px;
 }
+
+/* digital */
+
+.digital{
+	background-color: #eee;
+}
+.digital .content{
+	width: 58.15%;
+	padding: 80px 0;
+	display: inline-block;
+	vertical-align: top;
+}
+.digital .content h3{
+	padding: 10px 0;
+	color: #4c4c4c;
+	font-size: 30px;
+}
+.digital .content p{
+	padding: 10px 0;
+	color: #4c4c4c;
+}
+.digital .content a{
+	padding: 10px 0;
+	display: block;
+	color: #7181a1;
+}
+.digital-img{
+	width: calc(41.85%-5px);
+	padding: 80px 0;
+	display: inline-block;
+}
+.digital-img img{
+	width: 100%;
+	height: auto;
+}
