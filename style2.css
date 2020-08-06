@@ -274,3 +274,30 @@ article{
 	background-color: #fff;
 	color: #3361b6;
 }
+
+/* blue */
+
+.blue{
+	height: 260px;
+	background: linear-gradient(90deg, #3973D6 50%, #152350 50%);
+}
+.blue a{
+	color: #fff;
+	font-size: 18px;
+}
+.blue li{
+	padding: 10px 0;
+}
+.blue1, .blue2{
+	width: 49%;
+	display: inline-block;
+}
+.blue1{
+	vertical-align: middle;
+	padding-top: 50px; 
+}
+.blue2{
+	margin-left: 600px;
+}
+
+
