@@ -325,4 +325,40 @@ article{
 	display: inline-block;
 }
 
+/* footer */
 
+footer{
+	background-color: #eee;
+}
+.link h5, .link a{
+	color: #4c4c4c;
+}
+.link a{
+	font-size: 12px;
+}
+.link h5{
+	padding: 10px 0;
+	font-size: 16px;
+}
+.links{
+	padding: 30px 20px;
+}
+.link{
+	line-height: 30px;
+	padding: 0px 60px;
+	display: inline-block;
+	vertical-align: top;
+}
+.foot li, .foot a{
+	color: #4c4c4c;
+}
+.foot li{
+	padding: 10px;
+	display: inline-block;
+	font-size: 12px;
+}
+.foot li:first-child{
+	padding: 0px 450px 0px 70px;
+}
+
+/* end */
