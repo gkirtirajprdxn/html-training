@@ -591,4 +591,55 @@ footer h5{
 	/*padding-right: 100px;*/
 }
 
+@media only screen and (max-width: 995px){
+ 	.top span{
+		display: none;
+	}
+	.checkbtn{
+		display: block;
+	}
+	.navbar li{
+		display: block;
+	}
+ 	.navbar{
+		width: 100%;
+		display: none;
+		position: fixed;
+		/*top: 15%;*/
+		left: 0;
+		background-color: #F6EDDC;
+		text-align: center;
+	}
+	.email{
+		width: 100%;
+		margin: 30px auto;
+		display: block;
+		text-align: center;
+	}
+	.email h4{
+		display: block;
+		margin: 0 auto;
+	}
+	.offer{
+		display: block;
+		margin: 30px auto;
+	}
+	.links{
+		width: 100%;
+	}
+	.links ul{
+		width: 100%;
+		display: inline-block;
+		text-align: center;
+	}
+	.links .ul{
+		width: 49%;
+	}
+	.links h5{
+		text-align: center;
+	}
+	.foot{
+		text-align: center;
+	}
+}
 
