@@ -249,5 +249,16 @@ header{
 }
 /*.check:checked ~ */
 
+/* banner */
+.banner figure{
+	margin-top: 4%;
+}
+.head{
+	padding: 15px;
+	text-align: center;
+}
+.head a{
+	color: #94B7B7;
+}
 
 
