@@ -659,4 +659,35 @@ footer h5{
 	}
 }
 
-
+@media only screen and (max-width: 540px){
+ 	.month li{
+ 		width: 85%;
+ 	}
+ 	.treat li{
+ 		width: 85%;
+ 	}
+ 	.feature li{
+ 		width: 85%;
+ 	}
+ 	.review ul li{
+ 		width: 100%;
+ 	}
+ 	.links .ul{
+ 		width: 100%;
+ 		display: block;
+ 		text-align: center;
+ 	}
+ 	footer h4{
+ 		text-align: center;
+ 	}
+ 	.foot li{
+		padding: 15px;
+	}
+	.icons{
+		display: block;
+		text-align: center;
+	}
+	.foot ul{
+		text-align: center;
+	}
+}
