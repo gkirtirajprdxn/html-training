@@ -489,4 +489,106 @@ figcaption{
 	color: #fff;
 }
 
+/* footer */
+
+footer{
+	padding: 60px 0;
+	background-color: #F6EDDC;
+}
+footer h4{
+	font-size: 30px;
+}
+footer h5{
+	font-size: 16px;
+}
+.links, .links ul{
+	display: inline-block;
+}
+.ul1{
+	padding-right: 75px;
+}
+.ul2{
+	padding: 0 75px;
+}
+.email{
+	width: 40%;
+	float: right;
+	/*margin-left: 110px;*/
+	display: inline-block;
+	vertical-align: top;
+	/*float: right;*/
+}
+.email h4{
+	padding: 15px 0;
+	font-size: 16px;
+}
+.email input{
+ 	width: 260px;
+ 	padding: 20px;
+ 	border: none;
+ 	margin-right: -5px;
+}
+.submit{
+	padding: 20px;
+	background-color: #4E494E;
+	color: #fff;
+	font-size: 12px;
+	display: inline-block;
+}
+.submit:hover{
+	background-color: #F8A883;
+	color: #4E494E;
+}
+.foot-top{
+	padding-bottom: 30px; 
+}
+.offer{
+	margin: 28px 0;
+	display: inline-block;
+	background-color: yellow;
+}
+.get a{
+	margin-right: 20px;
+}
+.get i{
+	padding-right: 15px;
+}
+.links ul{
+	display: block;
+}
+.links li{
+	padding: 15px 0;
+}
+.links a{
+	padding: 5px;
+	font-size: 14px;
+}
+.links a:hover{
+	background-color: #4E494E;
+	color: #F6EDDC;
+}
+.foot{
+	width: 72.2%;
+	/*padding: 0 163px;*/
+	border-top: 1px solid #4E494E;
+	margin: 0 auto;
+}
+.foot li{
+	padding: 25px;
+	display: inline-block;
+}
+.foot .fa{
+	font-size: 25px;
+}
+.foot-link{
+	display: inline-block;
+}
+.icons{
+	display: inline-block;
+}
+.links .ul{
+	display: inline-block;
+	/*padding-right: 100px;*/
+}
+
 
