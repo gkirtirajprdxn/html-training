@@ -435,4 +435,58 @@ figcaption{
 	content: "";
 }
 
+/* reviews */
+
+.reviews{
+	padding: 0px 0;
+}
+.reviews h2{
+	padding: 40px;
+	font-size: 30px;
+}
+.left, .review{
+	display: inline-block;
+	vertical-align: top;
+}
+.left{
+	width: 20%
+}
+.review{
+	width: 78%;
+}
+.review ul{
+	width: 95%;
+	display: inline-block;
+}
+.review ul li{
+	width: 45%;
+	padding: 10px;
+	display: inline-block;
+	text-align: left;
+}
+.reviews .wrapper a{
+	display: inline-block;
+	vertical-align: top;
+}
+.star, .date,.name{
+	padding: 10px 0;
+	display: inline-block;
+}
+.date{
+	float: right;
+}
+.reviews h3{
+	padding: 10px 0;
+ }
+.btn{
+ 	padding: 20px 80px;
+	border: 1px solid #4E494E;
+	margin: 50px 0;
+	display: inline-block;
+ }
+.btn:hover{
+	background-color: #4E494E;
+	color: #fff;
+}
+
 
