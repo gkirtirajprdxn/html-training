@@ -250,6 +250,7 @@ header{
 /*.check:checked ~ */
 
 /* banner */
+
 .banner figure{
 	margin-top: 4%;
 }
@@ -259,6 +260,32 @@ header{
 }
 .head a{
 	color: #94B7B7;
+}
+
+/* about */
+
+.about{
+	padding: 40px 0;
+	margin-top: -5px;
+	background-color: #F4F9FC;
+}
+.about h2{
+	font-size: 28px;
+}
+.about p{
+	width: 80%;
+	padding: 20px;
+	margin: 0 auto;
+}
+.about a{
+	padding: 20px 40px;
+	margin: 15px;
+	display: inline-block;
+	background-color: #F8A883;
+	color: #fff;
+}
+.about a:hover{
+	background-color: #4E494E;
 }
 
 
