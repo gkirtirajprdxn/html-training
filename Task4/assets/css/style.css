@@ -378,4 +378,32 @@ figcaption{
 	content: "";
 }
 
+/* browse */
+
+.browse{
+	padding: 40px 0;
+}
+.browse h2{
+	padding: 20px;
+	font-size: 30px;
+}
+.browse a{
+	padding: 20px 80px;
+	border: 1px solid #4E494E;
+	margin: 30px 0;
+	display: inline-block;
+}
+.browse a:hover{
+	background-color: #4E494E;
+	color: #fff;
+}
+.browse:after{
+	width: 72.2%;
+	padding:10px;
+	border-bottom: 2px solid #F8A883;
+	margin: 0 auto;
+	display: block;
+	content: "";
+}
+
 
