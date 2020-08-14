@@ -288,4 +288,47 @@ header{
 	background-color: #4E494E;
 }
 
+/* month */
+
+.month{
+	padding: 60px 0;
+}
+.month h2{
+	padding: 20px;
+	font-size: 30px;
+}
+.month p{
+	padding: 20px;
+	font-size: 18px;
+}
+.month ul{
+	width: 100%;
+}
+.month li{
+	width: 32%;
+	padding: 10px;
+	display: inline-block;
+}
+figcaption{
+	padding:10px 0;
+}
+.month a{
+	padding: 20px 80px;
+	border: 1px solid #4E494E;
+	margin: 30px 0;
+	display: inline-block;
+}
+.month a:hover{
+	background-color: #4E494E;
+	color: #fff;
+}
+.month:after{
+	width: 72.2%;
+	padding:10px;
+	border-bottom: 2px solid #F8A883;
+	margin: 0 auto;
+	display: block;
+	content: "";
+}
+
 
