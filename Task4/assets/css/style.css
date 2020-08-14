@@ -1,0 +1,253 @@
+@charset "utf-8";
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,
+ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure,
+figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* Force scrollbar */
+html { overflow-y: scroll; }
+
+/* Align radios and text inputs with their label */
+
+input[type='radio'] { vertical-align: text-bottom; }
+
+/* Hand cursor on clickable input elements */
+label,
+input[type='button'],
+input[type='submit'],
+button {
+  cursor: pointer;
+}
+
+strong {
+  font-weight: bold;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+em { font-style: italic; }
+
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+sub,
+sup {
+  vertical-align: baseline;
+  position: relative;
+  font-size: 55%;
+  line-height: 0;
+}
+
+sup { top: -.7em; }
+
+sub { bottom: -.25em; }
+
+.cf:before,
+.cf:after {
+  display: table;
+  content: " ";
+}
+
+.cf:after { clear: both; }
+
+.cf { *zoom: 1; }
+
+html { overflow-y: scroll; }
+
+/* Align radios and text inputs with their label */
+
+input[type='radio'] { vertical-align: text-bottom; }
+
+/* Hand cursor on clickable input elements */
+label,
+input[type='button'],
+input[type='submit'],
+button {
+  cursor: pointer;
+}
+
+strong {
+  font-weight: bold;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+em { font-style: italic; }
+
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+sub,
+sup {
+  vertical-align: baseline;
+  position: relative;
+  font-size: 55%;
+  line-height: 0;
+}
+
+sup { top: -.7em; }
+
+sub { bottom: -.25em; }
+
+*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	color: #4E494E;
+	font-family: 'Helvetica', Arial, sans-serif;
+	overflow-x: hidden !important;
+} 
+
+.wrapper{
+	width: 72.2%;
+	/*padding: 0 188px;*/
+	margin: 0 auto;
+}
+a{
+	color: #4E494E;
+	text-decoration: none;
+}
+li{
+	list-style-type: none;
+}
+figure img{
+	width: 100%;
+	height: auto;
+}
+section{
+	text-align: center;
+}
+
+/* header */
+
+header{
+	background-color: #F6EDDC;
+	width: 100%;
+	position: fixed;
+	z-index: 3;
+	top: 0;
+	/*padding-bottom: 15px;*/
+}
+.top{
+	padding: 0 188px;
+	border-bottom: 1px solid #4E494E;
+	font-size: 12px;
+}
+.top span{
+	display: inline-block;
+	padding: 10px 0;
+}
+.top ul{
+	float: right;
+	font-size: 14px;
+}
+.top li, h1{
+	padding: 10px 0;
+}
+.top a, navbar a{
+	padding: 5px;
+}
+.navbar, nav li, h1, .top ul{
+	display: inline-block;
+}
+.navbar{
+	float: right;
+}
+.navbar ul{
+	padding: 10px;
+}
+.navbar li{
+	padding: 10px;
+}
+.navbar a{
+	padding: 5px;
+}
+.navbar a:hover{
+	background-color: #4E494E;
+	color: #F6EDDC;
+}
+.search_icon:hover{
+	background-color: #fff;
+	color: #4E494E;
+}
+.search{
+	width: 260px;
+	padding: 8px;
+	border: 1px solid #4E494E;
+	border-radius: 20px;
+	margin-right: -25px;
+}
+.search_box{
+	position: relative;
+	/*margin-left: 35px;*/
+}
+.search_icon{
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	/*padding-right: 50px;*/
+}
+.cart{
+	padding: 0;
+}
+
+
+#check{
+	display: none;
+}
+#cross{
+	display: none;
+}
+.checkbtn{
+	float: right;
+	font-size: 25px;
+	padding: 5px;
+	cursor: pointer;
+	display: none;
+	position: relative;
+	user-select: none;
+}
+
+.check:checked ~ .navbar{
+	display: block !important;
+	max-height: 80vh;
+	transition: max-height .2s ease-out;
+}
+.check:checked ~ .navbar li{
+	display: block;
+}
+/*.check:checked ~ .navbar ul li a{
+	display: block;
+}*/
+.check:checked ~ .checkbtn #cross{
+	display: block;
+}
+.check:checked ~ .checkbtn #bars{
+	display: none;
+}
+/*.check:checked ~ */
+
+
+
