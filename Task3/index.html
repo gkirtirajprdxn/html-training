@@ -5,13 +5,21 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
 
+<!-- header -->
+
 <header>
-	<div class="wrapper">
-		<h1>Landscaper</h1>
-		<nav>
+	<div class="wrapper cf">
+		<a href="#" title="Landscaper"><h1>Landscaper</h1></a>
+		<input class="check" type="checkbox" id="check">
+		<label for="check" class="checkbtn cf">
+			<i class="fa fa-bars" aria-hidden="true" id="bars"></i>
+			<i class="fa fa-times" aria-hidden="true" id="cross"></i>
+		</label>
+		<nav class="cf">
 			<ul>
 				<li><a href="#" title="About">ABOUT</a></li>
 				<li><a href="#" title="Services">SERVICES</a></li>
@@ -23,68 +31,81 @@
 	</div>
 </header>
 
+<!-- banner -->
 
-<figure>
-	<img src="img/intro-bg.jpg" alt="intro-bg">
+<figure class="banner">
+	<img src="assets/img/intro-bg.jpg" alt="intro-bg">
 	<div class="wrapper">
 		<h2>LANDSCAPING SERVICES</h2>
-		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
-		<a href="#">MORE INFO</a>
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+		<a href="#" title="More Info">MORE INFO</a>
 	</div>
 </figure>
+
+<!-- About -->
 
 <div class="about">
 	<div class="wrapper">
 		<div class="content">
-			<h3>Welcome to Landscaper</h3>
-			<hr>
+			<h3>Welcome to <span>Landscaper</span></h3>
 			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-			<a href="#">VIEW ALL SERVICES</a>
+			<a href="#" title="View All Services">VIEW ALL SERVICES</a>
 		</div>	
-		<div class="img">
-			<div class="img-text">
-				<img src="img/about-1.jpg" alt="about-1">
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-			</div>
-			<div class="img-text">
-				<img src="img/about-2.jpg" alt="about-2">
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-			</div>
-		</div>
+		<ul>
+			<li>
+				<div class="about-1">
+					<figure>
+						<img src="assets/img/about-1.jpg" alt="about-1">
+					</figure>
+					<h4>Garden Care</h4>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+				</div>
+			</li>
+			<li>
+				<div class="about-1">
+					<figure>
+						<img src="assets/img/about-2.jpg" alt="about-2">
+					</figure>
+					<h4>Lawn Care</h4>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+				</div>
+			</li>
+		</ul>
 	</div>
 </div>
+
+<!-- Services -->
 
 <section class="services">
 	<div class="wrapper">
 		<h3>Our Services</h3>
-		<hr>
-		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+		<p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 		<ul>
 			<li>
 				<div class="service">
-					<img src="img/services/service-1.jpg" alt="service-1">
+					<figure><img src="assets/img/services/service-1.jpg" alt="service-1"></figure>
 					<h4>Lawn Care</h4>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
 				</div>
 			</li>
 			<li>
 				<div class="service">
-					<img src="img/services/service-2.jpg" alt="service-2">
+					<figure><img src="assets/img/services/service-2.jpg" alt="service-2"></figure>
 					<h4>Landscape Design</h4>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
 				</div>
 			</li>
 			<li>
 				<div class="service">
-					<img src="img/services/service-3.jpg" alt="service-3">
+					<figure><img src="assets/img/services/service-3.jpg" alt="service-3"></figure>
 					<h4>Tree Care</h4>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
 				</div>
 			</li>
 			<li>
 				<div class="service">
-					<img src="img/services/service-4.jpg" alt="service-4">
+					<figure><img src="assets/img/services/service-4.jpg" alt="service-4"></figure>
 					<h4>Spring & Fall Cleanup</h4>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
 				</div>
@@ -93,52 +114,96 @@
 	</div>
 </section>
 
+<!-- Gallery -->
+
 <section class="gallery">
 	<div class="wrapper">
 		<h3>Project Gallery</h3>
-		<hr>
 		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-		<a href="#">ALL</a>
-		<a href="#">LAWN CARE</a>
-		<a href="#">GARDEN CARE</a>
-		<a href="#">PLANTING</a>
-		<div class="portfolio">
-			<img src="img/portfolio/01-small.jpg" alt="01-small">
-			<img src="img/portfolio/02-small.jpg" alt="02-small">
-			<img src="img/portfolio/03-small.jpg" alt="03-small">
-			<img src="img/portfolio/04-small.jpg" alt="04-small">
-			<img src="img/portfolio/05-small.jpg" alt="05-small">
-			<img src="img/portfolio/06-small.jpg" alt="06-small">
-			<img src="img/portfolio/07-small.jpg" alt="07-small">
-			<img src="img/portfolio/08-small.jpg" alt="08-small">
-			<img src="img/portfolio/09-small.jpg" alt="09-small">
-		</div>
-	</div>
-</section>
-
-<section class="testimonials">
-	<div class="wrapper">
-		<h3>Testimonials</h3>
-		<hr>
+		<a href="#" title="All">ALL</a>
+		<a href="#" title="Lawn Care">LAWN CARE</a>
+		<a href="#" title="Garden Care">GARDEN CARE</a>
+		<a href="#" title="Planting">PLANTING</a>
 		<ul>
 			<li>
-				<h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</h4>
-				<p>- John Doe, Parker County, TX</p>
+				<figure>
+					<img src="assets/img/portfolio/01-small.jpg" alt="01-small">
+				</figure>
+			</li>
+			<li>
+				<figure>
+					<img src="assets/img/portfolio/02-small.jpg" alt="02-small">
+				</figure>
+			</li>
+			<li>
+				<figure>
+					<img src="assets/img/portfolio/03-small.jpg" alt="03-small">
+				</figure>
+			</li>
+			<li>
+				<figure>
+					<img src="assets/img/portfolio/04-small.jpg" alt="04-small">
+				</figure>
+			</li>
+			<li>
+				<figure>
+					<img src="assets/img/portfolio/05-small.jpg" alt="05-small">
+				</figure>
+			</li>
+			<li>
+				<figure>
+					<img src="assets/img/portfolio/06-small.jpg" alt="06-small">
+				</figure>
+			</li>
+			<li>
+				<figure>
+					<img src="assets/img/portfolio/07-small.jpg" alt="07-small">
+				</figure>
+			</li>
+			<li>
+				<figure>
+					<img src="assets/img/portfolio/08-small.jpg" alt="08-small">
+				</figure>
+			</li>
+			<li>
+				<figure>
+					<img src="assets/img/portfolio/09-small.jpg" alt="09-small">
+				</figure>
 			</li>
 		</ul>
 	</div>
 </section>
 
+<!-- Testimonials -->
+
+<section class="testimonials">
+	<div class="wrapper">
+		<h3>Testimonials</h3>
+		<ul>
+			<li>
+				<h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</h4>
+				<p>- John Doe, Parker County, TX</p>
+				<div class="dots">
+					<span class="dot"></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
+				</div>
+			</li>
+		</ul>
+	</div>
+</section>
+
+<!-- contacts -->
+
 <section class="contacts">
 	<div class="wrapper">
 		<h3>Contact Us</h3>
-		<hr>
 		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 		<ul>
 			<li>
 				<div class="contact">
 					<h4>ADDRESS</h4>
-					<hr>
 					<p>4321 California St,</p>
 					<p>Sac Francisco, CA 12345</p>
 				</div>
@@ -146,7 +211,6 @@
 			<li>
 				<div class="contact">
 					<h4>WORKING HOURS</h4>
-					<hr>
 					<p>Monday-Saturday: 07:00-18:00</p>
 					<p>Sunday: CLOSED</p>
 				</div>
@@ -154,9 +218,8 @@
 			<li>
 				<div class="contact">
 					<h4>CONTACT INFO</h4>
-					<hr>
-					<a href="tel:+11231231234">Phone: +1 123 123 1234</a>
-					<a href="mailto:info@company.com">Email: info@company.com</a>
+					<p>Phone: <a href="tel:+11231231234">+1 123 123 1234</a></p>
+					<p>Email: <a href="mailto:info@company.com">info@company.com</a></p>
 				</div>
 			</li>
 		</ul>
@@ -166,20 +229,28 @@
 				<input type="text" name="name" placeholder="Name">
 				<input type="text" name="email" placeholder="Email">
 				<textarea placeholder="Message"></textarea>
-				<input type="submit" name="send" value="SEND MESSAGE">
+				<input class="send" type="submit" name="send" value="SEND MESSAGE">
 			</form>
 		</div>
 	</div>
 </section>
 
+<!-- footer -->
+
 <footer>
 	<div class="wrapper">
-		<div class="icons">
-			<i class="fa fa-2x fa-facebook" aria-hidden="true"></i>
-			<i class="fa fa-2x fa-twitter" aria-hidden="true"></i>
-			<i class="fa fa-2x fa-google-plus" aria-hidden="true"></i>
-		</div>
-		<h5>&copy; 2016 Landscaper. Designed by TemplateWire</h5>
+		<ul class="icons">
+			<li>
+				<a href="#" title="Facebook"><i class="fa fa-2x fa-facebook" aria-hidden="true"></i></a>
+			</li>
+			<li>
+				<a href="#" title="Twitter"><i class="fa fa-2x fa-twitter" aria-hidden="true"></i></a>
+			</li>
+			<li>
+				<a href="#" title="Google+"><i class="fa fa-2x fa-google-plus" aria-hidden="true"></i></a>
+			</li>
+		</ul>
+		<h5>&copy; 2016 Landscaper. Designed by <span>TemplateWire</span></h5>
 	</div>
 </footer>
 
