@@ -230,14 +230,7 @@ header{
 	user-select: none;
 }
 
-.check:checked ~ .navbar{
-	display: block !important;
-	max-height: 80vh;
-	transition: max-height .2s ease-out;
-}
-.check:checked ~ .navbar li{
-	display: block;
-}
+
 /*.check:checked ~ .navbar ul li a{
 	display: block;
 }*/
@@ -592,6 +585,14 @@ footer h5{
 }
 
 @media only screen and (max-width: 995px){
+	.check:checked ~ .navbar{
+		display: block !important;
+		max-height: 80vh;
+		transition: max-height .2s ease-out;
+	}
+	.check:checked ~ .navbar li{
+		display: block;
+	}
  	.top span{
 		display: none;
 	}
