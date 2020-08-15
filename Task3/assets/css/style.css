@@ -1,65 +1,12 @@
-@charset "utf-8";
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
-blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,
-ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,
-dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
-tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure,
-figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
 }
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
+body{
+	font-family: 'Helvetica', Arial, sans-serif;
+	overflow-x: hidden !important;
 }
-
-/* Force scrollbar */
-html { overflow-y: scroll; }
-
-/* Align radios and text inputs with their label */
-
-input[type='radio'] { vertical-align: text-bottom; }
-
-/* Hand cursor on clickable input elements */
-label,
-input[type='button'],
-input[type='submit'],
-button {
-  cursor: pointer;
-}
-
-strong {
-  font-weight: bold;
-  font-family: inherit;
-  font-size: inherit;
-}
-
-em { font-style: italic; }
-
-img {
-  border: 0;
-  vertical-align: middle;
-}
-
-sub,
-sup {
-  vertical-align: baseline;
-  position: relative;
-  font-size: 55%;
-  line-height: 0;
-}
-
-sup { top: -.7em; }
-
-sub { bottom: -.25em; }
-
 .cf:before,
 .cf:after {
   display: table;
@@ -70,21 +17,8 @@ sub { bottom: -.25em; }
 
 .cf { *zoom: 1; }
 
-
-
-*{
-	box-sizing: border-box;
-	padding: 0px;
-	margin: 0px;
-}
-body{
-	font-family: 'Helvetica', Arial, sans-serif;
-	overflow-x: hidden !important;
-}
-
 .wrapper{
 	width:84.4%;
-	max-width: 1400px;
 	/*padding: 0 105px;*/
 	margin: 0 auto;
 }
@@ -232,7 +166,6 @@ header nav{
 	display: inline-block;
 }
 .about .content{
-	width: calc(50%-5px);
 	padding-right: 25px;
 }
 .about ul{
@@ -240,15 +173,9 @@ header nav{
 }
 .about li{
 	width: 50%;
-	/*padding: 0 15px;*/
+	padding: 0 15px;
 	margin-left: -5px;
 	display: inline-block;
-}
-.about li:first-child{
-	padding-right: 15px; 
-}
-.about li:last-child{
-	padding-left: 15px; 
 }
 .about .content,.about ul{
 	width: 49%;
@@ -329,7 +256,7 @@ header nav{
 }
 .services h4{
 	padding: 30px 0 5px 0;
-	font-size: 22px;
+	font-size: 24px;
 }
 .services img{
 	border: 12px solid #78B546;
@@ -581,14 +508,7 @@ footer span{
 
 	.about li{
 		width: 100%;
-		margin-left: 0;
 		display: block;
-	}
-	.about li:first-child{
-		padding-right: 0; 
-    }	
-    .about li:last-child{
-		padding-left: 0; 
 	}
 
 	.services li{
@@ -655,9 +575,6 @@ footer span{
 	.about ul, .about .content{
 		width: 100%;
 		display: block;
-	}
-	.about ul{
-		padding-left: 0;
 	}
 	.about a{
 		width: 200px;
