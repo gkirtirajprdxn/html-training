@@ -221,3 +221,59 @@ nav a:hover{
 .slide2,.slide3,.slide4,.slide5{
   display: none;
 }
+
+/* cards */
+
+.cards{
+  padding: 90px 0;
+}
+.cards li{
+  width: calc(50% - 28px);
+  display: inline-block;
+}
+.cards li:nth-of-type(2n){
+  margin-left: 50px;
+}
+.card{
+  background-color: #fff;
+}
+.content{
+  text-align: center;
+}
+.content span{
+  padding-top: 50px;
+  display: block;
+  color: #ccc;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+.content span:after{
+  width: 38%;
+  padding:10px 0;
+  margin: 0 auto;
+  border-bottom: 1px solid #ccc;
+  display: block;
+  content: "";
+  text-align: center;
+}
+.content h3{
+  padding: 10px 0 0 0;
+  font-size: 26px;
+}
+.content p{
+  padding: 35px 45px;
+  color: #ccc;
+  line-height: 25px;
+  text-align: left;
+}
+.content a{
+  padding: 15px;
+  border: 1px solid #808080;
+  display: inline-block;
+  margin-bottom: 45px;
+  color: #363636;
+}
+.content a:hover{
+  background-color: #808080;
+  color: #fff;
+}
