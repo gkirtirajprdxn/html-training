@@ -445,3 +445,15 @@ footer{
     margin-left: 0px;
   }
 }
+
+@media only screen and (max-width: 540px){
+  .slide-text h2{
+    font-size: 10px;
+  }
+  .slide-text h1{
+    font-size: 60px;
+  }
+  .dots{
+    top: 92%;
+  }
+}
