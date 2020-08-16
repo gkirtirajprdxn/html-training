@@ -97,3 +97,363 @@ img{
   /*padding: 0 95px;*/
   margin: 0 auto;
 }
+
+/* navbar */
+
+header{
+  width: 100%;
+  position: absolute;
+  z-index: 3;
+}
+header h2{
+  padding: 30px 20px;
+  display: block;
+  float: left;
+  color: #fff;
+  vertical-align: top;
+}
+nav{
+  padding: 30px 40px;
+  display: block;
+  float: right;
+}
+nav ul{
+  float: right;
+}
+nav li{
+  display: inline-block;
+}
+nav a{
+  padding: 15px;
+  color: #fff;
+}
+nav a:hover{
+  border-radius: 15px;
+  background-color: #808080;
+  color: #fff;
+}
+
+#check{
+  display: none;
+}
+#cross{
+  display: none;
+}
+.checkbtn{
+  padding: 5px;
+  margin: 20px 10px;
+  display: none;
+  float: right;
+  position: fixed;
+  right: 10px;
+  z-index: 3;
+  color: #fff;
+  cursor: pointer;
+  font-size: 30px;
+  user-select: none;
+}
+.check:checked ~ nav{
+  display: block !important;
+  transition: max-height .2s ease-out;
+}
+.check:checked ~ nav ul li a{
+  display: block;
+}
+.check:checked ~ .checkbtn #cross{
+  display: block;
+}
+.check:checked ~ .checkbtn #bars{
+  display: none;
+}
+
+/* slider */
+
+.slider{
+  position: relative;
+}
+.slide-text{
+  position: absolute;
+  top: 40%;
+  right: 0;
+  left: 0;
+  color: #fff;
+  text-align: center;
+}
+.slide-text h2{
+  color: #ccc;
+  letter-spacing: 3px;
+}
+.slide-text h2:after{
+  width: 18%;
+  padding:15px 0;
+  border-bottom: 2px solid #ccc;
+  margin: 0 auto;
+  display: block;
+  content: "";
+  text-align: center;
+}
+.slide-text h1{
+  padding: 15px 0;
+  font-size: 100px;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  margin: 0 5px;cursor: pointer;
+  display: inline-block;
+  background-color: #bbb;
+  transition: background-color 0.6s ease;
+}
+.dots{
+  position: absolute;
+  top: 95%;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.dot:hover{
+  background-color: #fff;
+}
+.dot:first-child{
+  background-color: #fff;
+}
+.slide2,.slide3,.slide4,.slide5{
+  display: none;
+}
+
+/* cards */
+
+.cards{
+  padding: 90px 0;
+}
+.cards li{
+  width: calc(50% - 28px);
+  display: inline-block;
+}
+.cards li:nth-of-type(2n){
+  margin-left: 50px;
+}
+.card{
+  background-color: #fff;
+}
+.content{
+  text-align: center;
+}
+.content span{
+  padding-top: 50px;
+  display: block;
+  color: #ccc;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+.content span:after{
+  width: 38%;
+  padding:10px 0;
+  border-bottom: 1px solid #ccc;
+  margin: 0 auto;
+  display: block;
+  content: "";
+  text-align: center;
+}
+.content h3{
+  padding: 10px 0 0 0;
+  font-size: 26px;
+}
+.content p{
+  padding: 35px 45px;
+  color: #ccc;
+  line-height: 25px;
+  text-align: left;
+}
+.content a{
+  padding: 15px;
+  border: 1px solid #808080;
+  margin-bottom: 45px;
+  display: inline-block;
+  color: #363636;
+}
+.content a:hover{
+  background-color: #808080;
+  color: #fff;
+}
+
+/* bg */
+
+.bg{
+  position: relative;
+}
+.bg figure{
+  width: 100%;
+  height: 240px;
+  overflow: hidden;
+}
+.bg img{
+  object-fit: cover;
+  object-position: 0px -10.5%;
+}
+.text{
+  position: absolute;
+  top: 20%;
+  right: 0;
+  left: 0;
+  color: #fff;
+  text-align: center;
+}
+.text span{
+  padding-top: 50px;
+  display: block;
+  color: #ccc;
+  font-size: 12px;
+  letter-spacing: 4px;
+}
+.text span:after{
+  width: 38%;
+  padding:10px 0;
+  border-bottom: 1px solid #ccc;
+  margin: 0 auto;
+  display: block;
+  content: "";
+  text-align: center;
+}
+.text h3{
+  padding: 10px 0;
+  font-size: 26px;
+}
+
+/* gallery */
+
+.gallery{
+  padding: 40px 0;
+  text-align: center;
+}
+.gallery span{
+  padding-top: 50px;
+  display: block;
+  color: #ccc;
+  font-size: 12px;
+  letter-spacing: 4px;
+}
+.gallery span:after{
+  width: 38%;
+  padding:10px 0;
+  border-bottom: 1px solid #ccc;
+  margin: 0 auto;
+  display: block;
+  content: "";
+  text-align: center;
+}
+.gallery h3{
+  padding: 10px 0 40px 0;
+  font-size: 26px;
+}
+.gallery li{
+  width: calc(50% - 28px);
+  padding-bottom: 50px;
+  display: inline-block;
+}
+.gallery li:nth-of-type(2n){
+  margin-left: 50px;
+}
+.gallery figure{
+  padding: 15px;
+  background-color: #fff;
+}
+
+/* footer */
+
+footer{
+  padding: 45px 0;
+  background-color: #000;
+  text-align: center;
+}
+.icons{
+  padding: 25px 0;
+}
+.icons li{
+  padding: 0 7px;
+  display: inline-block;
+}
+.icons a{
+  padding: 5px;
+  color: #808080;
+  font-size: 26px;
+}
+.icons a:hover{
+  color: #fff;
+}
+.foot{
+  padding: 25px 0;
+  display: block;
+  color: #808080;
+  font-size: 14px;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 995px){
+  header nav{
+    width: 100%;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #363636;
+    text-align: center;
+  }
+  nav ul{
+    padding-top: 30px;
+    float: none;
+  }
+  header li{
+    display: block;
+  }
+  header a{
+    display: inline-block;
+  }
+  .checkbtn{
+    display: inline-block;
+    float: right;
+  }
+  .content span{
+    font-size: 10px;
+  }
+  .content p{
+    padding: 15px 40px;
+    line-height: 20px;
+  }
+  .gallery li{
+    padding-bottom: 30px;
+  }
+  .gallery li:nth-of-type(2n){
+    margin-left: 30px;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .cards li{
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .cards li:nth-of-type(2n){
+    margin-left: 0px;
+  }
+  .gallery li{
+    width: 100%;
+  }
+  .gallery li:nth-of-type(2n){
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 540px){
+  .slide-text h2{
+    font-size: 10px;
+  }
+  .slide-text h1{
+    font-size: 60px;
+  }
+  .dots{
+    top: 92%;
+  }
+}
