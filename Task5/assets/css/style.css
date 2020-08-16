@@ -360,3 +360,31 @@ nav a:hover{
   background-color: #fff;
 }
 
+/* footer */
+
+footer{
+  padding: 45px 0;
+  background-color: #000;
+  text-align: center;
+}
+.icons{
+  padding: 25px 0;
+}
+.icons li{
+  padding: 0 7px;
+  display: inline-block;
+}
+.icons a{
+  padding: 5px;
+  color: #808080;
+  font-size: 26px;
+}
+.icons a:hover{
+  color: #fff;
+}
+.foot{
+  padding: 25px 0;
+  display: block;
+  color: #808080;
+  font-size: 14px;
+}
