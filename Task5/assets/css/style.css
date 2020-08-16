@@ -428,5 +428,20 @@ footer{
   .gallery li:nth-of-type(2n){
     margin-left: 30px;
   }
+}
 
+@media only screen and (max-width: 768px){
+  .cards li{
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .cards li:nth-of-type(2n){
+    margin-left: 0px;
+  }
+  .gallery li{
+    width: 100%;
+  }
+  .gallery li:nth-of-type(2n){
+    margin-left: 0px;
+  }
 }
