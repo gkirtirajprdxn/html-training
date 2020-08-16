@@ -277,3 +277,46 @@ nav a:hover{
   background-color: #808080;
   color: #fff;
 }
+
+/* bg */
+
+.bg{
+  position: relative;
+}
+.bg figure{
+  width: 100%;
+  height: 240px;
+  overflow: hidden;
+}
+.bg img{
+  object-fit: cover;
+  object-position: 0px -10.5%;
+}
+.text{
+  position: absolute;
+  top: 20%;
+  right: 0;
+  left: 0;
+  color: #fff;
+  text-align: center;
+}
+.text span{
+  padding-top: 50px;
+  display: block;
+  color: #ccc;
+  font-size: 12px;
+  letter-spacing: 4px;
+}
+.text span:after{
+  width: 38%;
+  padding:10px 0;
+  margin: 0 auto;
+  border-bottom: 1px solid #ccc;
+  display: block;
+  content: "";
+  text-align: center;
+}
+.text h3{
+  padding: 10px 0;
+  font-size: 26px;
+}
