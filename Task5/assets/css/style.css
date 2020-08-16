@@ -97,3 +97,71 @@ img{
   /*padding: 0 95px;*/
   margin: 0 auto;
 }
+
+/* navbar */
+
+header{
+  width: 100%;
+  position: absolute;
+  z-index: 3;
+}
+header h2{
+  padding: 30px 20px;
+  display: block;
+  color: #fff;
+  vertical-align: top;
+  float: left;
+}
+nav{
+  padding: 30px 40px;
+  display: block;
+  float: right;
+}
+nav ul{
+  float: right;
+}
+nav li{
+  display: inline-block;
+}
+nav a{
+  color: #fff;
+  padding: 15px;
+}
+nav a:hover{
+  border-radius: 15px;
+  background-color: #808080;
+  color: #fff;
+}
+
+#check{
+  display: none;
+}
+#cross{
+  display: none;
+}
+.checkbtn{
+  padding: 5px;
+  margin: 20px 10px;
+  display: none;
+  float: right;
+  z-index: 3;
+  position: fixed;
+  right: 10px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 30px;
+  user-select: none;
+}
+.check:checked ~ nav{
+  display: block !important;
+  transition: max-height .2s ease-out;
+}
+.check:checked ~ nav ul li a{
+  display: block;
+}
+.check:checked ~ .checkbtn #cross{
+  display: block;
+}
+.check:checked ~ .checkbtn #bars{
+  display: none;
+}
