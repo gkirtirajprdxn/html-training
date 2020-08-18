@@ -94,7 +94,7 @@ img{
 }
 
 .wrapper{
-  /*max-width: 1400px;*/
+  max-width: 1400px;
   width:85.92%;
   /*padding: 0 95px;*/
   margin: 0 auto;
